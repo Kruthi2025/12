@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dr. Anil Sindhur</title>
+  <style>
+    body {
+      margin: 0; 
+      padding: 0;
+      background-image: url("images/img1.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap; /* Allow the container to wrap its children */
+    }
+    .image {
+      max-width: 20%;
+      flex-basis: 20%; /* Adjust the width for larger screens */
+      margin: 10px;
+    }
+    .text {
+      flex-grow: 1;
+      padding: 10px;
+      box-sizing: border-box;
+      text-decoration-color: azure;
+    }
+
+    /* Media query for smaller screens */
+    @media only screen and (max-width: 600px) {
+      .image {
+        max-width: 100%;
+        flex-basis: 100%; /* Full width for smaller screens */
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1> Dr. ANIL SINDHUR</h1>  
+  </header>
+  <div class="container">
+    <img class="image" src="images/anil.jpeg" alt="Image">
+    <div class="text">
+      <p style="color: black"><b><i> Anil Sindhur working as Veterinary Officer in Polyclinic Koppal in the state of KARNATAKA, INDIA. Graduated from Veterinary College Bidar(2008-2012) and completed Masters in Department of Surgery and Radiology from Veterinary College Hisar, HARYANA (2016-2018). Joined the Karnataka State department of Animal Husbandry and Veterinary services department as Veterinary Officer from 2018 and worked across Bagalkot and Koppal districts.
+      </i></b></p> 
+      <p>Conducted around ----number of surgeries including critical surgeries DH, TP, Ruminotomy, Orthopaedic and Gynaecological surgeries etc…. and treated so many other cases.
+      </p>
+      <p><h3><a href="Surgeries.html">Insights on my works & Surgeries</a></h3></p>  
+    </div>
+  </div>
+</body>
+</html>
